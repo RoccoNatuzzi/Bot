@@ -11,9 +11,6 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by rocco on 07/07/2017.
- */
 public class MyBot extends TelegramLongPollingBot {
 
     @Override

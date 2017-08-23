@@ -36,20 +36,12 @@ public class Main {
     public static void initImage() {
         //The url of the website. This is just an example
         ArrayList<String> site = new ArrayList<>();
-        site.add("http://thegifer.tumblr.com/");//0
-        site.add("http://fuckmeharder-please.tumblr.com/");
-        site.add("http://addictedtofuckingandsex.tumblr.com/");
-        site.add("http://only-the-best-stuff-xxx.tumblr.com/");
-        site.add("http://deliciousnights.tumblr.com/");
-        site.add("http://acidgifer.tumblr.com/");
-        site.add("http://sfigtohsmuc.tumblr.com/");
+        site.add("http://fuckmeharder-please.tumblr.com/");//0
         site.add("https://finegirlsdailycumshots.tumblr.com/");
-        site.add("https://boobsarethegreatest.tumblr.com/");
-        site.add("https://playboynudesforever.tumblr.com/");
-        site.add("http://girlofpb.tumblr.com/");
-        site.add("http://thethingsilove-playboygirls.tumblr.com/");//11
+        site.add("http://girlofpb.tumblr.com/");//2
 
-        int random =(int) (Math.random() * 12);
+
+        int random =(int) (Math.random() * 3);
         //System.out.println(random);
         String webSiteURL = site.get(random);
 
